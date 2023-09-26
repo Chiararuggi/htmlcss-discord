@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
@@ -16,6 +17,47 @@ header{
 
 .f-black{
     color:black
+}
+
+.font-size50{
+    font-size: 50px;
+}
+
+.font-size20{
+    font-size: 20px;
+}
+
+.font-size30{
+    font-size: 30px;
+}
+
+.margin30{
+    margin: 30px;
+}
+
+.marginbottom20{
+margin-bottom: 20px;
+}
+
+.margin40-50{
+    margin: 40px 50px;
+}
+
+.margin10{
+    margin: 10px;
+}
+
+
+.b-white{
+    background-color: white;
+}
+
+.b-black{
+    background-color: rgba(35,39,42,255);
+}
+
+.but-padding{
+    padding: 12px 15px;
 }
 
 /*header*/
@@ -86,40 +128,57 @@ ul{
 .panel-item{
     width:40%;
     height:300px;
-    background-color: rgb(209, 116, 174);
-    border:1px dashed black;
+}
+
+.f-p-button{
+    border-radius: 20px;
+    height: fit-content;
+
 }
 
 /*secondo pannello*/
 
 .secondpanel{
     background-color: rgb(255, 255, 255);
-    width:100%;
-    min-height: 420px;
+    width:75%;
+    min-height: 500px;
+    margin:auto;
     display: flex;
-    align-items: center;
     justify-content: center;
+    
 }
 
 .innerpanel{
     display:flex;
-    height:350px;
-    width:50%;
+    height:400px;
+    width:70%;
     margin:auto;
 }
 
 .bigc{
     width:67%;
     height: 100%;
-    border:1px dashed black;
-    background-color: rgb(96, 134, 190);
 }
 
 .smallc{
     width:33%;
     height: 100%;
-    border:1px dashed black;
-    background-color:pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bigc img{
+    object-fit: contain;
+    width:100%;
+    height: 100%;
+}
+
+.sangiuseppe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
 }
 
 /*terzo pannello*/
