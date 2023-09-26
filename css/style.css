@@ -296,29 +296,36 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1px;
+    flex-direction: column;
 }
 
-
+.separator{
+    background-color: rgba(114,137,218,255);
+    height: 1px;
+    width:70%;
+}
 
 .innerfooterpanel{
-    background-color: aquamarine;
     display:flex;
     height:50px;
-    width:50%;
+    width:70%;
     margin:10px auto 0 auto;
     align-items: center;
     justify-content: space-between;
 }
 
 .logobutton{
-    background-color: rgb(212, 126, 137);
-    border:1px dashed black;
+    margin-top: 10px;
 }
 
 .button{
-    background-color: rgb(212, 126, 137);
-    border:1px dashed black;
+    background-color: rgba(142,161,225,255);
+    border-radius: 30px;
+    color:white;
+    height: fit-content;
+    width: fit-content;
+    padding: 9px 11px;
+    font-size: 12px;
 }
 
 .bigcsixt h2{
