@@ -11,8 +11,16 @@ header{
     background-repeat: no-repeat;
 }
 
+.rowreverse{
+    flex-direction: row-reverse;
+}
+
 .f-white{
     color: white;
+}
+
+.f-violet{
+    color:rgba(114,137,218,255);
 }
 
 .f-black{
@@ -36,7 +44,7 @@ header{
 }
 
 .marginbottom20{
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .margin40-50{
@@ -47,6 +55,9 @@ margin-bottom: 20px;
     margin: 10px;
 }
 
+.b-grey{
+    background-color: rgb(231, 231, 231);
+}
 
 .b-white{
     background-color: white;
@@ -184,36 +195,74 @@ ul{
 /*terzo pannello*/
 
 .thirdpanel{
-    background-color: rgb(197, 196, 196);
-    width:100%;
-    min-height: 420px;
+
+    width:75%;
+    min-height: 500px;
+    margin:auto;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 /*quinto pannello*/
 
 .fifthpanel{
-    background-color: rgb(197, 196, 196);
     width:100%;
-    min-height: 600px;
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bigpanel-item{
+    width:50%;
+    height:700px;
+}
+
+.fifthp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fifthp2{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bigpanel-item{
-    width:50%;
-    height:543px;
-    background-color: rgb(22, 128, 27);
-    border:1px dashed black;
+.fifthp3{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.downloadbutton{
+    background-color: rgba(142,161,225,255);
+    border-radius: 30px;
+    color:white;
+    height: fit-content;
+    width: fit-content;
+    padding: 13px 15px;
 }
 
 /*sesto pannello*/
 
 .sixtpanel{
-    background-color: rgb(53, 53, 53);
+    background-color: rgba(35,39,42,255);
+    background-position: center center;
     width:100%;
     min-height: 420px;
     display: flex;
@@ -222,7 +271,6 @@ ul{
 }
 
 .sixtinnerpanel{
-    background-color: blue;
     display:flex;
     height:390px;
     width:50%;
@@ -232,8 +280,6 @@ ul{
 .bigcsixt{
     width:28%;
     height: 100%;
-    border:1.3px dashed black;
-    background-color: rgb(212, 126, 137);
 }
 
 .smallcsixt{
@@ -246,7 +292,7 @@ ul{
 /*footer*/
 
 .footercontainer{
-    background-color: rgb(53, 53, 53);
+    background-color: rgba(35,39,42,255);
     height:60px;
     width: 100%;
     display: flex;
@@ -254,6 +300,8 @@ ul{
     justify-content: center;
     margin-top: 1px;
 }
+
+
 
 .innerfooterpanel{
     background-color: aquamarine;
@@ -274,3 +322,29 @@ ul{
     background-color: rgb(212, 126, 137);
     border:1px dashed black;
 }
+
+.chooselang{
+    display:flex;
+    align-items:center;
+    margin-top: 20px;
+    
+}
+
+.chooselang img{
+    width:23px;
+}
+
+.chooselang p{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons img{
+    width: 23px;
+    margin: 18px 15px 0 0;
+}
+
